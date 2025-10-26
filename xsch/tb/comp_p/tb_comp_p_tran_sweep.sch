@@ -1,9 +1,9 @@
-v {xschem version=3.4.5 file_version=1.2
-}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N -410 180 -410 200 {
 lab=vinp}
@@ -211,4 +211,4 @@ C {devices/lab_pin.sym} -850 40 0 0 {name=p47 sig_type=std_logic lab=bias_2}
 C {devices/lab_pin.sym} -850 140 0 0 {name=p48 sig_type=std_logic lab=bias_3}
 C {devices/lab_wire.sym} -750 -210 0 1 {name=p13 sig_type=std_logic lab=bias_p}
 C {devices/gnd.sym} -850 360 0 0 {name=l10 lab=GND}
-C {ip/comparators/comp_p/comp_p.sym} -90 0 0 0 {name=X_COMP_P}
+C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} -90 0 0 0 {name=X1}
