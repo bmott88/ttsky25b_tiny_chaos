@@ -1,7 +1,50 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1761410844
+timestamp 1761751762
+<< checkpaint >>
+rect -786 -1532 2156 1626
+<< error_s >>
+rect 304 262 522 401
+rect 338 219 349 254
+rect 457 247 480 262
+rect 457 230 477 243
+rect 306 206 380 219
+rect 346 191 377 195
+rect 380 191 415 196
+rect 278 179 295 191
+rect 337 178 415 191
+rect 343 176 415 178
+rect 343 158 377 176
+rect 380 162 415 176
+rect 423 162 446 196
+rect 457 178 480 230
+rect 380 158 389 162
+rect 343 156 411 158
+rect 343 128 389 156
+rect 343 112 377 128
+rect 383 124 389 128
+rect 457 146 482 178
+rect 343 3 386 112
+rect 352 0 386 3
+rect 340 -13 371 -9
+rect 340 -41 383 -13
+rect 457 -30 508 146
+rect 287 -47 383 -41
+rect 287 -81 299 -47
+rect 314 -80 383 -47
+rect 440 -64 508 -30
+rect 457 -76 486 -64
+rect 457 -80 477 -76
+rect 314 -81 373 -80
+rect 287 -87 373 -81
+rect 338 -97 373 -87
+rect 348 -112 373 -97
+rect 302 -115 373 -112
+rect 423 -115 446 -114
+rect 380 -148 446 -115
+rect 457 -149 480 -80
+rect 346 -182 480 -149
 << metal1 >>
 rect 304 808 572 862
 rect 348 374 386 808
@@ -25,19 +68,19 @@ transform 1 0 413 0 1 562
 box -109 -300 109 300
 use sky130_fd_pr__nfet_01v8_MH3LLV  XMn
 timestamp 1761410844
-transform 1 0 158 0 1 257
-box 0 0 1 1
+transform 1 0 316 0 1 91
+box -211 -310 211 310
 use sky130_fd_pr__pfet_01v8_TMVPE9  XMp
 timestamp 1761410844
-transform 1 0 527 0 1 213
-box 0 0 1 1
+transform 1 0 685 0 1 47
+box -211 -319 211 319
 << labels >>
 flabel metal1 304 808 572 862 0 FreeSans 1600 0 0 0 vdd
 port 0 nsew
-flabel metal1 302 -166 572 -112 0 FreeSans 1600 0 0 0 vss
-port 1 nsew
-flabel metal1 306 206 446 272 0 FreeSans 1600 0 0 0 in
-port 2 nsew
-flabel metal1 510 206 572 270 0 FreeSans 1600 0 0 0 out
+flabel metal1 510 206 572 270 0 FreeSans 800 0 0 0 vout
+port 3 nsew
+flabel metal1 302 -166 572 -112 0 FreeSans 800 0 0 0 vout
+port 3 nsew
+flabel metal1 306 206 446 272 0 FreeSans 800 0 0 0 vout
 port 3 nsew
 << end >>

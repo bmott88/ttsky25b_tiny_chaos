@@ -1,0 +1,50 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PJMNR4 in circuit inv_lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_MTNEXU in circuit inv_lvs (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: inv_lvs                         |Circuit 2: inv.spice                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: inv_lvs                         |Circuit 2: inv.spice                       
+
+---------------------------------------------------------------------------------------
+Net: sky130_fd_pr__pfet_01v8_MTNEXU:Mp/w_n |Net: vin                                   
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |                                           
+Net: VSUBS                                 |Net: vss                                   
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  sky130_fd_pr__nfet_01v8/4 = 1            
+                                           |                                           
+Net: vdd                                   |Net: vdd                                   
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/4 = 1            
+  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
+  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: inv_lvs                         |Circuit 2: inv.spice                       
+-------------------------------------------|-------------------------------------------
+vdd                                        |(no pin, node is vin)                      
+out                                        |(no pin, node is vout)                     
+---------------------------------------------------------------------------------------
+Cell pin lists for inv_lvs and inv.spice altered to match.
+Device classes inv_lvs and inv.spice are equivalent.
+
+Final result: Top level cell failed pin matching.

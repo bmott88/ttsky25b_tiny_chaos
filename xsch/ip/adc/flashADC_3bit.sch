@@ -7,7 +7,7 @@ F {}
 E {}
 T {Vref Input (1V)} -600 -420 0 0 0.75 0.75 {}
 T {(Setting Comparator Tail Currents)} 300 -470 0 0 0.6 0.6 {}
-T {Priority/Thermometer Encoder} 350 -170 0 0 0.6 0.6 {}
+T {Priority/Thermometer Encoder} 390 -140 0 0 0.6 0.6 {}
 T {   PMOS Input
 Pair Comparators} -140 -840 0 0 0.75 0.75 {}
 T {INPUTS} -520 -780 0 0 0.75 0.75 {}
@@ -18,7 +18,6 @@ PMOS Input-Pair Comparators
 Analog Inputs: Vin & Vref
 On-chip Iref from VDD} -1040 -770 0 0 0.4 0.4 {}
 N -470 -320 -470 -300 {lab=vref}
-N -470 -240 -470 -220 {lab=ref6}
 N -470 -160 -470 -140 {lab=ref5}
 N -470 -80 -470 -60 {lab=ref4}
 N -470 0 -470 20 {lab=ref3}
@@ -33,6 +32,16 @@ N -470 10 -390 10 {lab=ref3}
 N -470 90 -390 90 {lab=ref2}
 N -470 170 -390 170 {lab=ref1}
 N -470 250 -390 250 {lab=ref0}
+N -470 -230 -470 -220 {lab=ref6}
+N -530 -300 -470 -300 {lab=vref}
+N -470 -300 -410 -300 {lab=vref}
+N -410 -240 -410 -230 {lab=ref6}
+N -530 -230 -470 -230 {lab=ref6}
+N -530 -240 -530 -230 {lab=ref6}
+N -470 320 -410 320 {lab=vss}
+N -470 260 -410 260 {lab=ref0}
+N -530 260 -470 260 {lab=ref0}
+N -530 320 -470 320 {lab=vss}
 C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 340 0 0 {name=X2}
 C {devices/lab_pin.sym} 30 380 3 0 {name=p1 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 300 1 0 {name=p2 sig_type=std_logic lab=vdd}
@@ -115,44 +124,74 @@ C {devices/lab_pin.sym} 460 0 0 0 {name=p38 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 90 340 2 0 {name=p28 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 670 -350 2 0 {name=p83 sig_type=std_logic lab=bias_n}
 C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sym} 520 -370 0 0 {name=x9}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tgates/tmux_7therm_to_3bin_.sym} 610 60 0 0 {name=x10}
-C {devices/res.sym} -470 -270 0 0 {name=R9
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 290 0 0 {name=R1
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 210 0 0 {name=R2
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 130 0 0 {name=R3
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 50 0 0 {name=R4
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 -30 0 0 {name=R5
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 -110 0 0 {name=R6
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -470 -190 0 0 {name=R7
-value=2k
-footprint=1206
-device=resistor
-m=1}
+C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym} 610 60 0 0 {name=x1}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -410 -270 0 0 {name=R12
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -430 -270 0 0 {name=p51 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 -190 0 0 {name=R1
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 -190 0 0 {name=p52 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 -110 0 0 {name=R2
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 -110 0 0 {name=p53 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 -30 0 0 {name=R3
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 -30 0 0 {name=p54 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 50 0 0 {name=R4
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 50 0 0 {name=p55 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 130 0 0 {name=R5
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 130 0 0 {name=p56 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -470 210 0 0 {name=R6
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -490 210 0 0 {name=p57 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -410 290 0 0 {name=R7
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -430 290 0 0 {name=p58 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -530 290 0 1 {name=R8
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -510 290 0 1 {name=p82 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_1p41.sym} -530 -270 0 1 {name=R9
+W=1.41
+L=1.41
+model=res_xhigh_po_1p41
+spiceprefix=X
+ mult=1}
+C {devices/lab_pin.sym} -510 -270 0 1 {name=p84 sig_type=std_logic lab=vss}

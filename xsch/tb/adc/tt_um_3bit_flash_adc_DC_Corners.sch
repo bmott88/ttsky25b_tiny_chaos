@@ -26,15 +26,6 @@ C {devices/code.sym} 370 -110 0 0 {name=SIMULATOR only_toplevel=false value=
 .control
 dc V1 0 1 0.01
 
-set xbrushwidth=2
-plot v(vout) v(vin)
-
-plot v(vout)-v(vin)
-
-;plot v(d0) v(d1) v(d2)
-;plot v(x1.ref0) v(x1.ref1) v(x1.ref2)
-;plot v(x1.bias_p)
-;plot i(V2)
 
 .endc
 .end
