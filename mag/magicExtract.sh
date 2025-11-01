@@ -29,6 +29,7 @@ save ${BASENAME}_lvs
 
 load ${BASENAME}_lvs
 select top cell
+port makeall
 
 extract all
 
@@ -46,6 +47,7 @@ save ${BASENAME}_extracted
 
 load ${BASENAME}_extracted
 select top cell
+port makeall
 
 extract do local
 extract all
