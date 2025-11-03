@@ -73,15 +73,15 @@ R40 vdd.n4 vdd.n3 23.1255
 R41 vdd.n6 vdd.n5 15.533
 R42 vdd.n5 vdd.n4 15.1643
 R43 vdd.n7 vdd.n6 15.1643
-R44 vdd vdd.n10 2.34467
+R44 vdd vdd.n10 2.3405
 R45 vdd.n10 vdd.n9 2.07925
 R46 vdd.n9 vdd.n0 0.376971
 R47 vdd.n10 vdd 0.109875
-C0 vin vout 0.12658f
-C1 vout vdd 0.11977f
-C2 vin vdd 0.13706f
+C0 vin vdd 0.13776f
+C1 vin vout 0.12658f
+C2 vout vdd 0.11998f
 C3 vout vss 0.40687f
 C4 vin vss 0.56678f
-C5 vdd vss 1.85015f
+C5 vdd vss 1.84972f
 .ends
 

@@ -28,11 +28,11 @@ C9 B VSUBS 1.5811f
 XXMn vss vss vout vin sky130_fd_pr__nfet_01v8_MH3LLV
 XXMp vdd vdd vout vin vss sky130_fd_pr__pfet_01v8_A6MZLZ
 C0 vin vout 0.12658f
-C1 vin vdd 0.13706f
-C2 vout vdd 0.11977f
+C1 vin vdd 0.13776f
+C2 vout vdd 0.11998f
 C3 vin vss 0.56678f
 C4 vout vss 0.40687f
-C5 vdd vss 1.85015f
+C5 vdd vss 1.84972f
 .ends
 
 .subckt buffer_extracted in out vdd vss
@@ -138,8 +138,8 @@ R94 vdd.n16 vdd.n15 23.1255
 R95 vdd.n13 vdd.n12 23.1255
 R96 vdd.n20 vdd.n4 8.97701
 R97 vdd.n11 vdd.n6 8.97701
-R98 vdd.n1 vdd 2.34467
-R99 vdd.n0 vdd 2.34467
+R98 vdd.n1 vdd 2.3405
+R99 vdd.n0 vdd 2.3405
 R100 vdd.n9 vdd.n0 2.07925
 R101 vdd.n24 vdd.n23 1.8605
 R102 vdd.n23 vdd.n2 0.376971
@@ -150,14 +150,14 @@ R106 vdd vdd.n0 0.109875
 R107 vdd.n1 vdd 0.109875
 R108 out out 5.30089
 R109 out out 2.74234
-C0 vdd out 0.00589f
-C1 in vdd 0.01965f
-C2 out inv_1/vin 0.0071f
-C3 in inv_1/vin 0.01628f
-C4 vdd inv_1/vin 0.16476f
+C0 inv_1/vin in 0.01628f
+C1 inv_1/vin vdd 0.16476f
+C2 vdd out 0.00589f
+C3 in vdd 0.01965f
+C4 inv_1/vin out 0.0071f
 C5 inv_1/vin vss 0.60193f
 C6 out vss 0.3255f
-C7 vdd vss 3.06452f
+C7 vdd vss 3.06334f
 C8 in vss 0.41789f
 .ends
 

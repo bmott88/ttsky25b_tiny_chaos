@@ -5,10 +5,10 @@ rnode "inv_1/XMp/S" 0 0 455 1059 0
 resist "inv_1/XMp/S" "out" 2.74184
 resist "out" "inv_1/XMn/S" 5.30039
 rnode "inv_1/XMp/D" 0 0 367 1059 0
-rnode "vdd.n0" 0 0 270 1400 0
+rnode "vdd.n0" 0 0 270 1398 0
 rnode "inv_0/XMp/D" 0 0 -53 1059 0
 rnode "vdd" 0 0 -220 1400 0
-rnode "vdd.n1" 0 0 -150 1400 0
+rnode "vdd.n1" 0 0 -150 1398 0
 rnode "vdd.n2" 0 0 -9 1425 0
 rnode "inv_0/XMp/B" 0 0 -9 693 0
 rnode "vdd.n3" 0 0 -9 1425 0
@@ -43,8 +43,8 @@ resist "vdd.n10" "vdd.n9" 0.376471
 resist "vdd.n23" "vdd.n2" 0.376471
 resist "vdd.n24" "vdd.n23" 1.86
 resist "vdd.n9" "vdd.n0" 2.07875
-resist "vdd.n0" "inv_1/XMp/D" 2.34417
-resist "vdd.n1" "inv_0/XMp/D" 2.34417
+resist "vdd.n0" "inv_1/XMp/D" 2.34
+resist "vdd.n1" "inv_0/XMp/D" 2.34
 resist "vdd.n11" "vdd.n6" 8.97651
 resist "vdd.n20" "vdd.n4" 8.97651
 resist "vdd.n13" "vdd.n12" 23.125

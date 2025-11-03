@@ -11,12 +11,12 @@ rnode "vdd.n7" 0 0 33 999 0
 rnode "vdd.n8" 0 0 33 999 0
 rnode "vdd.n9" 0 0 190 1370 0
 rnode "vdd" 0 0 -20 1340 0
-rnode "vdd.n10" 0 0 50 1340 0
+rnode "vdd.n10" 0 0 50 1338 0
 rnode "XMp/D" 0 0 147 999 0
 resist "vdd.n10" "vdd" 0.109375
 resist "vdd.n9" "vdd.n0" 0.376471
 resist "vdd.n10" "vdd.n9" 2.07875
-resist "XMp/D" "vdd.n10" 2.34417
+resist "XMp/D" "vdd.n10" 2.34
 resist "vdd.n7" "vdd.n6" 15.1638
 resist "vdd.n5" "vdd.n4" 15.1638
 resist "vdd.n6" "vdd.n5" 15.5325

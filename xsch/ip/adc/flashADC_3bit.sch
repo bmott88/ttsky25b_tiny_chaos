@@ -11,7 +11,7 @@ T {Priority/Thermometer Encoder} 390 -140 0 0 0.6 0.6 {}
 T {   PMOS Input
 Pair Comparators} -140 -840 0 0 0.75 0.75 {}
 T {INPUTS} -520 -780 0 0 0.75 0.75 {}
-T {OUTPUTS} 430 -790 0 0 0.75 0.75 {}
+T {OUTPUTS} 440 -790 0 0 0.75 0.75 {}
 T {3bit Flash ADC:
 0V-1V
 PMOS Input-Pair Comparators
@@ -117,9 +117,9 @@ C {devices/ipin.sym} -430 -660 0 0 {name=p75 lab=vin}
 C {devices/ipin.sym} -430 -640 0 0 {name=p76 lab=vref}
 C {devices/iopin.sym} -430 -700 2 0 {name=p77 lab=vdd}
 C {devices/iopin.sym} -430 -680 2 0 {name=p78 lab=vss}
-C {devices/opin.sym} 480 -720 0 0 {name=p79 lab=dout0}
-C {devices/opin.sym} 480 -700 0 0 {name=p80 lab=dout1}
-C {devices/opin.sym} 480 -680 0 0 {name=p81 lab=dout2}
+C {devices/opin.sym} 550 -720 0 0 {name=p79 lab=dout0}
+C {devices/opin.sym} 550 -700 0 0 {name=p80 lab=dout1}
+C {devices/opin.sym} 550 -680 0 0 {name=p81 lab=dout2}
 C {devices/lab_pin.sym} 460 0 0 0 {name=p38 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 90 340 2 0 {name=p28 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 670 -350 2 0 {name=p83 sig_type=std_logic lab=bias_n}
@@ -195,3 +195,10 @@ model=res_xhigh_po_1p41
 spiceprefix=X
  mult=1}
 C {devices/lab_pin.sym} -510 -270 0 1 {name=p84 sig_type=std_logic lab=vss}
+C {devices/opin.sym} 470 -720 0 0 {name=p85 lab=d0}
+C {devices/opin.sym} 470 -700 0 0 {name=p86 lab=d1}
+C {devices/opin.sym} 470 -680 0 0 {name=p87 lab=d2}
+C {devices/opin.sym} 470 -660 0 0 {name=p88 lab=d3}
+C {devices/opin.sym} 470 -640 0 0 {name=p89 lab=d4}
+C {devices/opin.sym} 470 -620 0 0 {name=p90 lab=d5}
+C {devices/opin.sym} 470 -600 0 0 {name=p91 lab=d6}
