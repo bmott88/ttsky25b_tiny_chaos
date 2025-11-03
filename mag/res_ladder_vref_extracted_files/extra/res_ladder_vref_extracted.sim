@@ -1,0 +1,64 @@
+| units: 500000 tech: sky130A format: MIT
+x XR1/a_n141_n125# ref6 ref5 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=2206 sky130_fd_pr__res_xhigh_po_1p41
+x XR2/a_n141_n125# ref4 ref5 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=1698 sky130_fd_pr__res_xhigh_po_1p41
+x XR3/a_n141_n125# ref4 ref3 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=1190 sky130_fd_pr__res_xhigh_po_1p41
+x XR12/a_n141_n125# ref6 vref vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=3222 sky130_fd_pr__res_xhigh_po_1p41
+x XR4/a_n141_n125# ref2 ref3 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=682 sky130_fd_pr__res_xhigh_po_1p41
+x XR5/a_n141_n125# ref2 ref1 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=174 sky130_fd_pr__res_xhigh_po_1p41
+x XR6/a_n141_n125# ref0 ref1 vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=-334 sky130_fd_pr__res_xhigh_po_1p41
+x XR7/a_n141_n125# ref0 vss vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=-842 sky130_fd_pr__res_xhigh_po_1p41
+x XR8/a_n141_n125# ref0 vss vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=-1350 sky130_fd_pr__res_xhigh_po_1p41
+x XR9/a_n141_n125# ref6 vref vss s=121824,1428 d=121824,1428 l=250 w=0 x=3121 y=2714 sky130_fd_pr__res_xhigh_po_1p41
+C vref0 2.1
+R vref 189
+= vref XR12/R2
+= vref XR9/R2
+R XR9/a_n141_n125# 2256
+R XR8/a_n141_n125# 2256
+C ref00 2.6
+R ref0 296
+= ref0 XR6/R1
+= ref0 XR8/R1
+= ref0 XR7/R1
+R vss 145623
+= vss XR12/B
+= vss XR9/B
+= vss XR1/B
+= vss XR2/B
+= vss XR3/B
+= vss XR4/B
+= vss XR5/B
+= vss XR6/B
+= vss XR8/R2
+= vss XR8/B
+= vss XR7/R2
+= vss VSUBS
+= vss XR7/B
+R XR7/a_n141_n125# 2256
+R ref1 188
+= ref1 XR5/R2
+= ref1 XR6/R2
+R XR6/a_n141_n125# 2256
+R ref2 188
+= ref2 XR4/R1
+= ref2 XR5/R1
+R XR5/a_n141_n125# 2256
+R ref3 188
+= ref3 XR3/R2
+= ref3 XR4/R2
+R XR4/a_n141_n125# 2256
+R XR12/a_n141_n125# 2256
+R ref4 188
+= ref4 XR2/R1
+= ref4 XR3/R1
+R XR3/a_n141_n125# 2256
+R ref5 188
+= ref5 XR1/R2
+= ref5 XR2/R2
+R XR2/a_n141_n125# 2256
+C ref60 2.2
+R ref6 296
+= ref6 XR12/R1
+= ref6 XR9/R1
+= ref6 XR1/R1
+R XR1/a_n141_n125# 2256
