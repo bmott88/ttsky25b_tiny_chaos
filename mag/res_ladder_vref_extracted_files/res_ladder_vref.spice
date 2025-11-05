@@ -9,15 +9,15 @@
 *.opin ref4
 *.opin ref5
 *.opin ref6
-XR12 ref6 vref vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR1 ref5 ref6 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR2 ref4 ref5 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR3 ref3 ref4 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR4 ref2 ref3 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR5 ref1 ref2 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR6 ref0 ref1 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR7 vss ref0 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR8 vss ref0 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
-XR9 ref6 vref vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR1 ref6 vref vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR2 ref6 vref vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR3 ref5 ref6 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR4 ref4 ref5 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR5 ref3 ref4 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR6 ref2 ref3 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR7 ref1 ref2 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR8 ref0 ref1 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR9 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR10 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
 **.ends
 .end

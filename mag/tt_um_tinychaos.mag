@@ -1,11 +1,12 @@
 magic
 tech sky130A
-timestamp 1762194203
-<< error_s >>
-rect 7481 12291 7874 12305
-rect 7373 12278 9342 12291
-rect 7373 12264 9342 12277
-rect 7481 12250 7874 12264
+timestamp 1762352980
+<< nwell >>
+rect 9934 20221 10061 21533
+rect 9934 16519 10054 19143
+<< pwell >>
+rect 9934 19143 10054 20221
+rect 9934 15980 10054 16519
 << metal4 >>
 rect 3067 22476 3097 22576
 rect 3343 22476 3373 22576
@@ -74,31 +75,31 @@ transform 1 0 8874 0 1 15248
 box -1501 731 1060 2583
 use comp_p  comp_p_3
 timestamp 1711855675
-transform 1 0 8874 0 -1 16712
+transform 1 0 11555 0 1 18950
 box -1501 731 1060 2583
 use comp_p  comp_p_4
 timestamp 1711855675
-transform 1 0 8874 0 1 11546
+transform 1 0 11555 0 -1 20414
 box -1501 731 1060 2583
 use comp_p  comp_p_5
 timestamp 1711855675
-transform 1 0 8874 0 -1 13009
+transform 1 0 11555 0 1 15248
 box -1501 731 1060 2583
 use comp_p  comp_p_6
 timestamp 1711855675
-transform 1 0 8873 0 1 7843
+transform 1 0 11554 0 -1 16712
 box -1501 731 1060 2583
 use res_ladder_vref  res_ladder_vref_0
-timestamp 1762193005
-transform 1 0 4276 0 1 10883
-box 1261 -898 1984 1695
+timestamp 1762308519
+transform 1 0 5507 0 1 16582
+box 549 -1953 1704 4960
 use tmux_7therm_to_3bin  tmux_7therm_to_3bin_0
 timestamp 1762136034
-transform 1 0 10380 0 1 16769
+transform 1 0 12810 0 1 20775
 box -21 -4373 1875 730
 use vbias_generation  vbias_generation_0
 timestamp 1762138715
-transform 1 0 5097 0 1 14819
+transform 0 1 7920 -1 0 15299
 box -142 481 1140 2133
 << labels >>
 flabel metal4 s 14383 22476 14413 22576 0 FreeSans 240 90 0 0 clk

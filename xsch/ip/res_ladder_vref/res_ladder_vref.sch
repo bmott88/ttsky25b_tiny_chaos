@@ -39,75 +39,15 @@ C {devices/lab_pin.sym} 70 50 2 0 {name=p64 sig_type=std_logic lab=ref3}
 C {devices/lab_pin.sym} 70 130 2 0 {name=p65 sig_type=std_logic lab=ref2}
 C {devices/lab_pin.sym} 70 210 2 0 {name=p66 sig_type=std_logic lab=ref1}
 C {devices/lab_pin.sym} 70 290 2 0 {name=p67 sig_type=std_logic lab=ref0}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} 50 -230 0 0 {name=R12
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} 30 -230 0 0 {name=p51 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 -150 0 0 {name=R1
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 -150 0 0 {name=p52 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 -70 0 0 {name=R2
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 -70 0 0 {name=p53 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 10 0 0 {name=R3
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 10 0 0 {name=p54 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 90 0 0 {name=R4
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 90 0 0 {name=p55 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 170 0 0 {name=R5
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 170 0 0 {name=p56 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -10 250 0 0 {name=R6
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -30 250 0 0 {name=p57 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} 50 330 0 0 {name=R7
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} 30 330 0 0 {name=p58 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -70 330 0 1 {name=R8
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -50 330 0 1 {name=p82 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po_1p41.sym} -70 -230 0 1 {name=R9
-W=1.41
-L=1.41
-model=res_xhigh_po_1p41
-spiceprefix=X
- mult=1}
 C {devices/lab_pin.sym} -50 -230 0 1 {name=p84 sig_type=std_logic lab=vss}
 C {devices/iopin.sym} -160 -440 2 0 {name=p1 lab=vref}
 C {devices/iopin.sym} -160 -420 2 0 {name=p2 lab=vss}
@@ -118,3 +58,63 @@ C {devices/opin.sym} 150 -420 0 0 {name=p6 lab=ref3}
 C {devices/opin.sym} 150 -440 0 0 {name=p7 lab=ref4}
 C {devices/opin.sym} 150 -460 0 0 {name=p8 lab=ref5}
 C {devices/opin.sym} 150 -480 0 0 {name=p9 lab=ref6}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -70 -230 0 1 {name=R1
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 50 -230 0 0 {name=R2
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 -150 0 0 {name=R3
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 -70 0 0 {name=R4
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 10 0 0 {name=R5
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 90 0 0 {name=R6
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 170 0 0 {name=R7
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -10 250 0 0 {name=R8
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} -70 330 0 1 {name=R9
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 50 330 0 0 {name=R10
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
