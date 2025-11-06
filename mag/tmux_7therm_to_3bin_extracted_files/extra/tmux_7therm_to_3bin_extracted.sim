@@ -64,13 +64,12 @@ x R1/R1 buffer_0/out tmux_2to1_3/A vdd s=23200,916 d=23200,916 l=30 w=400 x=1313
 x tmux_2to1_0/XM5/G buffer_0/out tmux_2to1_3/A vss s=11600,516 d=11600,516 l=30 w=200 x=1313 y=213 sky130_fd_pr__nfet_01v8
 x tmux_2to1_0/XM5/G tmux_2to1_3/A buffer_4/out vdd s=23200,916 d=23200,916 l=30 w=400 x=1629 y=842 sky130_fd_pr__pfet_01v8
 x R1/R1 tmux_2to1_3/A buffer_4/out vss s=11600,516 d=11600,516 l=30 w=200 x=1629 y=213 sky130_fd_pr__nfet_01v8
-C buffer_8/in vdd 2.2
-C vdd buffer_4/out 2.5
-C R1/R1 vdd 4.5
-C buffer_6/out vdd 2.5
+C vdd R1/R1 5.0
+C vdd buffer_8/in 2.2
+C tmux_2to1_3/B vdd 2.2
 C vdd buffer_5/out 2.8
-C vdd m3_2032_n8746# 2.9
-C m3_2032_n8746#0 3.8
+C buffer_4/out vdd 2.6
+C vdd buffer_6/out 3.8
 R tmux_2to1_0/XM5/G 3877
 = tmux_2to1_0/XM5/G tmux_2to1_0/XM1/S
 = tmux_2to1_0/XM5/G tmux_2to1_0/XM2/S
@@ -182,8 +181,8 @@ R buffer_5/out 4836
 = buffer_5/out buffer_5/inv_1/vout
 = buffer_5/out buffer_5/inv_1/XMn/S
 = buffer_5/out buffer_5/inv_1/XMp/S
-C vdd0 81.1
-R vdd 296037
+C vdd0 84.6
+R vdd 296038
 = vdd buffer_7/vdd
 = vdd buffer_7/inv_0/vdd
 = vdd buffer_7/inv_0/XMp/D

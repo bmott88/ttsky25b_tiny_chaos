@@ -97,7 +97,6 @@ C {devices/opin.sym} 550 -700 0 0 {name=p80 lab=dout1}
 C {devices/opin.sym} 550 -680 0 0 {name=p81 lab=dout2}
 C {devices/lab_pin.sym} 460 0 0 0 {name=p38 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 90 340 2 0 {name=p28 sig_type=std_logic lab=d0}
-C {devices/lab_pin.sym} 670 -350 2 0 {name=p83 sig_type=std_logic lab=bias_n}
 C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sym} 520 -370 0 0 {name=x9}
 C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym} 610 60 0 0 {name=x1}
 C {devices/opin.sym} 470 -720 0 0 {name=p85 lab=d0}
@@ -108,3 +107,4 @@ C {devices/opin.sym} 470 -640 0 0 {name=p89 lab=d4}
 C {devices/opin.sym} 470 -620 0 0 {name=p90 lab=d5}
 C {devices/opin.sym} 470 -600 0 0 {name=p91 lab=d6}
 C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/res_ladder_vref/res_ladder_vref.sym} -380 -310 0 0 {name=x10}
+C {devices/noconn.sym} 670 -350 2 0 {name=l1}

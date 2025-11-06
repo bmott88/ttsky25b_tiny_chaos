@@ -40,20 +40,20 @@ L 4 120 -70 120 -60 {}
 L 4 120 -60 120 -50 {}
 L 7 50 -130 50 -110 {}
 L 7 50 130 50 150 {}
-B 5 187.5 -92.5 192.5 -87.5 {name=dout0 dir=out}
-B 5 187.5 -12.5 192.5 -7.5 {name=d0 dir=out}
-B 5 47.5 -132.5 52.5 -127.5 {name=vdd dir=inout}
-B 5 187.5 7.5 192.5 12.5 {name=d1 dir=out}
-B 5 187.5 -72.5 192.5 -67.5 {name=dout1 dir=out}
-B 5 187.5 -52.5 192.5 -47.5 {name=dout2 dir=out}
-B 5 187.5 27.5 192.5 32.5 {name=d2 dir=out}
-B 5 47.5 147.5 52.5 152.5 {name=vss dir=inout}
-B 5 187.5 47.5 192.5 52.5 {name=d3 dir=out}
 B 5 -192.5 -2.5 -187.5 2.5 {name=vin dir=in}
 B 5 -192.5 67.5 -187.5 72.5 {name=vref dir=in}
+B 5 187.5 -92.5 192.5 -87.5 {name=dout0 dir=out}
+B 5 187.5 -72.5 192.5 -67.5 {name=dout1 dir=out}
+B 5 187.5 -52.5 192.5 -47.5 {name=dout2 dir=out}
+B 5 187.5 -12.5 192.5 -7.5 {name=d0 dir=out}
+B 5 187.5 7.5 192.5 12.5 {name=d1 dir=out}
+B 5 187.5 27.5 192.5 32.5 {name=d2 dir=out}
+B 5 187.5 47.5 192.5 52.5 {name=d3 dir=out}
 B 5 187.5 67.5 192.5 72.5 {name=d4 dir=out}
 B 5 187.5 87.5 192.5 92.5 {name=d5 dir=out}
 B 5 187.5 107.5 192.5 112.5 {name=d6 dir=out}
+B 5 47.5 -132.5 52.5 -127.5 {name=vdd dir=inout}
+B 5 47.5 147.5 52.5 152.5 {name=vss dir=inout}
 T {@symname} -66.5 -6 0 0 0.3 0.3 {}
 T {@name} 125 -132 0 0 0.2 0.2 {}
 T {dout0} 165 -94 0 1 0.2 0.2 {}
