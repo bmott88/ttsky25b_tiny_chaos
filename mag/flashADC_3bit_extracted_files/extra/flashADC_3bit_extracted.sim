@@ -199,93 +199,93 @@ x tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_
 x tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/tmux_2to1_3/A vss s=11600,516 d=11600,516 l=30 w=200 x=12933 y=2447 sky130_fd_pr__nfet_01v8
 x tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/buffer_4/out vdd s=23200,916 d=23200,916 l=30 w=400 x=13249 y=3076 sky130_fd_pr__pfet_01v8
 x tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/buffer_4/out vss s=11600,516 d=11600,516 l=30 w=200 x=13249 y=2447 sky130_fd_pr__nfet_01v8
-C comp_p_3/latch_left vdd 3.4
-C comp_p_3/latch_left comp_p_3/tail 8.8
-C comp_p_5/vinn vdd 3.8
-C comp_p_1/latch_right comp_p_1/latch_left 5.4
-C vdd d6 8.2
-C d4 d3 2.9
-C comp_p_1/tail comp_p_1/latch_left 8.8
-C vin comp_p_6/tail 2.9
-C comp_p_5/tail comp_p_5/latch_right 8.9
-C comp_p_2/latch_right comp_p_2/latch_left 5.4
-C comp_p_4/vinn comp_p_4/latch_right 3.5
-C d0 vdd 5.8
-C comp_p_1/latch_right comp_p_1/vinn 3.5
-C tmux_7therm_to_3bin_0/R1/R1 vdd 5.0
-C comp_p_3/tail vdd 3.8
-C comp_p_2/tail vdd 3.4
-C comp_p_5/latch_left comp_p_5/latch_right 5.4
-C comp_p_0/out_left vdd 5.2
-C comp_p_2/vinn vdd 2.4
-C d2 vdd 4.2
-C comp_p_3/vinn comp_p_3/latch_right 3.5
-C comp_p_0/latch_right comp_p_0/vinn 3.5
-C d5 d4 4.7
-C tmux_7therm_to_3bin_0/buffer_8/in vdd 2.2
-C tmux_7therm_to_3bin_0/buffer_4/out vdd 2.6
-C tmux_7therm_to_3bin_0/buffer_6/out vdd 3.8
-C vin vdd 40.3
-C vin comp_p_3/tail 2.9
-C comp_p_0/vinn vdd 2.3
-C vin comp_p_2/tail 2.9
-C comp_p_0/latch_left comp_p_0/latch_right 5.4
-C comp_p_1/out_left vdd 7.0
-C comp_p_4/tail vdd 3.4
-C comp_p_6/latch_right comp_p_6/vinn 3.5
-C comp_p_6/tail comp_p_6/latch_left 8.8
 C comp_p_6/latch_right comp_p_6/latch_left 5.4
-C comp_p_5/tail vdd 3.8
-C comp_p_2/tail comp_p_2/latch_right 8.9
-C comp_p_0/tail comp_p_0/latch_right 8.9
-C comp_p_1/latch_right vdd 3.4
-C comp_p_2/vinn comp_p_2/latch_right 3.5
-C comp_p_4/latch_right comp_p_4/tail 8.9
-C vin comp_p_0/vinn 2.1
-C comp_p_0/tail vdd 3.4
-C vin comp_p_4/tail 2.9
-C comp_p_1/tail vdd 3.8
-C comp_p_5/latch_left vdd 3.4
-C comp_p_5/out_left vdd 7.0
-C comp_p_3/out_left vdd 7.0
-C d4 vdd 4.6
-C comp_p_3/latch_left comp_p_3/latch_right 5.4
-C comp_p_6/out_left vdd 7.0
-C vin comp_p_5/tail 2.9
-C comp_p_4/out_left vdd 5.2
+C comp_p_6/latch_left comp_p_6/tail 8.8
+C comp_p_0/out_left vdd 5.2
 C tmux_7therm_to_3bin_0/tmux_2to1_3/B vdd 2.2
-C comp_p_6/tail comp_p_6/latch_right 8.9
-C d3 vdd 5.4
 C comp_p_5/vinn comp_p_5/latch_right 3.5
-C comp_p_2/out_left vdd 5.2
-C comp_p_3/vinn vdd 3.8
-C comp_p_6/vinn vdd 3.4
-C comp_p_6/latch_left vdd 3.4
+C comp_p_5/tail comp_p_5/latch_right 8.9
+C d0 vdd 5.8
+C comp_p_2/latch_right comp_p_2/vinn 3.5
+C d1 d2 3.4
 C comp_p_1/latch_left vdd 3.4
-C d3 d2 2.5
-C vin comp_p_0/tail 2.9
-C vin comp_p_1/tail 2.9
-C d5 d6 4.4
-C comp_p_4/latch_right comp_p_4/latch_left 5.4
-C comp_p_6/vbias_p vdd 34.0
-C comp_p_1/vinn vdd 3.8
-C comp_p_3/latch_right vdd 3.4
-C d1 vdd 4.3
-C comp_p_3/tail comp_p_3/latch_right 8.9
-C comp_p_5/latch_right vdd 3.4
-C comp_p_4/tail comp_p_4/latch_left 8.8
-C comp_p_0/tail comp_p_0/latch_left 8.8
-C comp_p_2/tail comp_p_2/latch_left 8.8
-C vin comp_p_6/vinn 2.3
+C comp_p_0/latch_right comp_p_0/vinn 3.5
+C vin comp_p_6/tail 2.9
+C comp_p_0/vinn vdd 2.3
 C tmux_7therm_to_3bin_0/buffer_5/out vdd 2.8
-C comp_p_5/latch_left comp_p_5/tail 8.8
-C d1 d2 3.7
-C d5 vdd 5.6
+C comp_p_0/tail comp_p_0/latch_right 8.9
+C tmux_7therm_to_3bin_0/buffer_6/out vdd 3.9
+C comp_p_6/vinn vin 2.3
+C comp_p_6/out_left vdd 7.0
+C comp_p_0/tail vdd 3.4
+C comp_p_4/latch_right comp_p_4/tail 8.9
+C comp_p_1/latch_left comp_p_1/latch_right 5.4
+C comp_p_3/out_left vdd 7.0
+C comp_p_2/latch_right comp_p_2/latch_left 5.4
+C comp_p_1/tail vdd 3.8
+C comp_p_2/out_left vdd 5.2
+C vdd comp_p_1/vinn 3.8
+C d4 vdd 4.5
+C comp_p_3/latch_right vdd 3.4
+C vin comp_p_0/vinn 2.1
 C comp_p_1/tail comp_p_1/latch_right 8.9
-C comp_p_6/tail vdd 3.8
-C comp_p_6/latch_right vdd 3.4
-C comp_p_4/vinn vdd 2.3
+C comp_p_6/latch_right comp_p_6/tail 8.9
+C comp_p_0/tail vin 2.9
+C comp_p_4/latch_right comp_p_4/latch_left 5.4
+C comp_p_3/latch_right comp_p_3/latch_left 5.4
+C comp_p_6/latch_right comp_p_6/vinn 3.5
+C comp_p_1/latch_right comp_p_1/vinn 3.5
+C comp_p_3/latch_right comp_p_3/tail 8.9
+C d4 d3 2.9
+C comp_p_3/latch_left vdd 3.4
+C d6 vdd 8.2
+C comp_p_6/latch_left vdd 3.4
+C comp_p_3/tail vdd 3.8
+C comp_p_1/tail vin 2.9
+C comp_p_5/latch_left vdd 3.4
+C comp_p_2/tail vdd 3.4
+C comp_p_1/latch_right vdd 3.4
+C comp_p_4/latch_right comp_p_4/vinn 3.5
 C vin comp_p_1/vinn 2.2
+C comp_p_4/tail vdd 3.4
+C d3 vdd 5.5
+C comp_p_3/tail comp_p_3/latch_left 8.8
+C d5 d4 4.5
+C comp_p_3/latch_right comp_p_3/vinn 3.5
+C comp_p_0/latch_left comp_p_0/tail 8.8
+C comp_p_6/vbias_p vdd 34.0
+C comp_p_1/out_left vdd 7.0
+C vin vdd 40.2
+C d5 vdd 5.4
+C comp_p_3/vinn vdd 3.8
+C d2 vdd 4.2
+C comp_p_5/vinn vdd 3.8
+C comp_p_2/vinn vdd 2.4
+C comp_p_5/tail vdd 3.8
+C vin comp_p_3/tail 2.9
+C d5 d6 4.5
+C vin comp_p_2/tail 2.9
+C tmux_7therm_to_3bin_0/R1/R1 vdd 5.0
+C comp_p_5/latch_right vdd 3.4
+C vin comp_p_4/tail 2.9
+C comp_p_5/out_left vdd 7.0
+C comp_p_5/latch_left comp_p_5/tail 8.8
+C d2 d3 2.5
+C d1 vdd 4.2
+C comp_p_0/latch_left comp_p_0/latch_right 5.4
+C comp_p_5/latch_left comp_p_5/latch_right 5.4
+C comp_p_4/out_left vdd 5.2
+C tmux_7therm_to_3bin_0/buffer_4/out vdd 2.6
+C comp_p_4/latch_left comp_p_4/tail 8.8
+C comp_p_4/vinn vdd 2.3
+C comp_p_2/latch_right comp_p_2/tail 8.9
+C tmux_7therm_to_3bin_0/buffer_8/in vdd 2.2
+C comp_p_6/latch_right vdd 3.4
+C comp_p_6/tail vdd 3.8
+C comp_p_6/vinn vdd 3.4
+C vin comp_p_5/tail 2.9
+C comp_p_2/tail comp_p_2/latch_left 8.8
+C comp_p_1/tail comp_p_1/latch_left 8.8
 R tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G 3877
 = tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/S
 = tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S
@@ -369,6 +369,7 @@ R tmux_7therm_to_3bin_0/buffer_6/inv_1/vin 3876
 = tmux_7therm_to_3bin_0/buffer_6/inv_1/vin tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/G
 = tmux_7therm_to_3bin_0/buffer_6/inv_1/vin tmux_7therm_to_3bin_0/buffer_6/inv_1/m1_160_1240#
 R tmux_7therm_to_3bin_0/buffer_6/out 4836
+= tmux_7therm_to_3bin_0/buffer_6/out m3_13146_n5640#
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/tmux_2to1_2/B
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/S
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/tmux_2to1_2/XM6/S
@@ -376,8 +377,8 @@ R tmux_7therm_to_3bin_0/buffer_6/out 4836
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/buffer_6/inv_1/vout
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/buffer_6/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/S
-C d60 5.7
-R d6 10375
+C d60 6.7
+R d6 10376
 = d6 comp_p_6/vout
 = d6 comp_p_6/XMp_out/a_n158_n800#
 = d6 comp_p_6/XMn_out_right/a_100_n500#
@@ -405,8 +406,8 @@ R tmux_7therm_to_3bin_0/buffer_5/out 4836
 = tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/buffer_5/inv_1/vout
 = tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/S
-C vdd0 401.4
-R vdd 1045647
+C vdd0 401.9
+R vdd 1044033
 = vdd comp_p_1/vdd
 = vdd comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
 = vdd comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
@@ -559,7 +560,7 @@ R vdd 1045647
 = vdd tmux_7therm_to_3bin_0/buffer_5/inv_1/vdd
 = vdd tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/D
 = vdd tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/B
-R vss 1492583
+R vss 1492577
 = vss VSUBS
 = vss res_ladder_vref_0/vss
 = vss res_ladder_vref_0/XR1/B
@@ -575,23 +576,6 @@ R vss 1492583
 = vss res_ladder_vref_0/XR9/R2
 = vss res_ladder_vref_0/VSUBS
 = vss res_ladder_vref_0/XR9/B
-= vss comp_p_3/vss
-= vss comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
-= vss comp_p_3/XMp_out/VSUBS
-= vss comp_p_3/XMn_diode_right/a_n158_n400#
-= vss comp_p_3/XMn_diode_right/a_n260_n574#
-= vss comp_p_3/XMn_cs_left/a_n158_n500#
-= vss comp_p_3/XMn_cs_left/a_n260_n698#
-= vss comp_p_3/XMn_cs_right1/a_n158_n500#
-= vss comp_p_3/XMn_cs_right1/a_n260_n698#
-= vss comp_p_3/XMn_diode_left1/a_n158_n400#
-= vss comp_p_3/XMn_diode_left1/a_n260_n574#
-= vss comp_p_3/XMn_out_left/a_n158_n500#
-= vss comp_p_3/XMn_out_left/a_n260_n698#
-= vss comp_p_3/XMn_out_right/a_n158_n500#
-= vss comp_p_3/XMp_tail/VSUBS
-= vss comp_p_3/VSUBS
-= vss comp_p_3/XMn_out_right/a_n260_n698#
 = vss comp_p_1/vss
 = vss comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
 = vss comp_p_1/XMp_out/VSUBS
@@ -609,23 +593,6 @@ R vss 1492583
 = vss comp_p_1/XMp_tail/VSUBS
 = vss comp_p_1/VSUBS
 = vss comp_p_1/XMn_out_right/a_n260_n698#
-= vss comp_p_2/vss
-= vss comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
-= vss comp_p_2/XMp_out/VSUBS
-= vss comp_p_2/XMn_diode_right/a_n158_n400#
-= vss comp_p_2/XMn_diode_right/a_n260_n574#
-= vss comp_p_2/XMn_cs_left/a_n158_n500#
-= vss comp_p_2/XMn_cs_left/a_n260_n698#
-= vss comp_p_2/XMn_cs_right1/a_n158_n500#
-= vss comp_p_2/XMn_cs_right1/a_n260_n698#
-= vss comp_p_2/XMn_diode_left1/a_n158_n400#
-= vss comp_p_2/XMn_diode_left1/a_n260_n574#
-= vss comp_p_2/XMn_out_left/a_n158_n500#
-= vss comp_p_2/XMn_out_left/a_n260_n698#
-= vss comp_p_2/XMn_out_right/a_n158_n500#
-= vss comp_p_2/XMp_tail/VSUBS
-= vss comp_p_2/VSUBS
-= vss comp_p_2/XMn_out_right/a_n260_n698#
 = vss comp_p_0/vss
 = vss comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
 = vss comp_p_0/XMp_out/VSUBS
@@ -643,6 +610,40 @@ R vss 1492583
 = vss comp_p_0/XMp_tail/VSUBS
 = vss comp_p_0/VSUBS
 = vss comp_p_0/XMn_out_right/a_n260_n698#
+= vss comp_p_3/vss
+= vss comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= vss comp_p_3/XMp_out/VSUBS
+= vss comp_p_3/XMn_diode_right/a_n158_n400#
+= vss comp_p_3/XMn_diode_right/a_n260_n574#
+= vss comp_p_3/XMn_cs_left/a_n158_n500#
+= vss comp_p_3/XMn_cs_left/a_n260_n698#
+= vss comp_p_3/XMn_cs_right1/a_n158_n500#
+= vss comp_p_3/XMn_cs_right1/a_n260_n698#
+= vss comp_p_3/XMn_diode_left1/a_n158_n400#
+= vss comp_p_3/XMn_diode_left1/a_n260_n574#
+= vss comp_p_3/XMn_out_left/a_n158_n500#
+= vss comp_p_3/XMn_out_left/a_n260_n698#
+= vss comp_p_3/XMn_out_right/a_n158_n500#
+= vss comp_p_3/XMp_tail/VSUBS
+= vss comp_p_3/VSUBS
+= vss comp_p_3/XMn_out_right/a_n260_n698#
+= vss comp_p_2/vss
+= vss comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= vss comp_p_2/XMp_out/VSUBS
+= vss comp_p_2/XMn_diode_right/a_n158_n400#
+= vss comp_p_2/XMn_diode_right/a_n260_n574#
+= vss comp_p_2/XMn_cs_left/a_n158_n500#
+= vss comp_p_2/XMn_cs_left/a_n260_n698#
+= vss comp_p_2/XMn_cs_right1/a_n158_n500#
+= vss comp_p_2/XMn_cs_right1/a_n260_n698#
+= vss comp_p_2/XMn_diode_left1/a_n158_n400#
+= vss comp_p_2/XMn_diode_left1/a_n260_n574#
+= vss comp_p_2/XMn_out_left/a_n158_n500#
+= vss comp_p_2/XMn_out_left/a_n260_n698#
+= vss comp_p_2/XMn_out_right/a_n158_n500#
+= vss comp_p_2/XMp_tail/VSUBS
+= vss comp_p_2/VSUBS
+= vss comp_p_2/XMn_out_right/a_n260_n698#
 = vss comp_p_6/vss
 = vss comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
 = vss comp_p_6/XMp_out/VSUBS
@@ -863,8 +864,8 @@ R vss 1492583
 = vss tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/VSUBS
 = vss tmux_7therm_to_3bin_0/buffer_5/inv_1/VSUBS
 = vss tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/B
-C d50 4.2
-R d5 10374
+C d50 4.8
+R d5 10373
 = d5 comp_p_5/vout
 = d5 comp_p_5/XMp_out/a_n158_n800#
 = d5 comp_p_5/XMn_out_right/a_100_n500#
@@ -892,7 +893,7 @@ R tmux_7therm_to_3bin_0/buffer_4/out 4836
 = tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/buffer_4/inv_1/vout
 = tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/buffer_4/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/S
-C d40 10.0
+C d40 11.2
 R d4 10374
 = d4 comp_p_4/vout
 = d4 comp_p_4/XMp_out/a_n158_n800#
@@ -919,7 +920,7 @@ R tmux_7therm_to_3bin_0/R1/R2 2034
 = tmux_7therm_to_3bin_0/R1/R2 tmux_7therm_to_3bin_0/buffer_3/inv_1/vout
 = tmux_7therm_to_3bin_0/R1/R2 tmux_7therm_to_3bin_0/buffer_3/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/R1/R2 tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/S
-C d30 4.4
+C d30 4.5
 R d3 10372
 = d3 m2_10384_n3312#
 = d3 comp_p_3/vout
@@ -979,7 +980,7 @@ R tmux_7therm_to_3bin_0/buffer_1/out 4833
 = tmux_7therm_to_3bin_0/buffer_1/out tmux_7therm_to_3bin_0/buffer_1/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/buffer_1/out tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/S
 C d10 9.1
-R d1 10376
+R d1 10375
 = d1 comp_p_0/vout
 = d1 comp_p_0/XMp_out/a_n158_n800#
 = d1 comp_p_0/XMn_out_right/a_100_n500#
@@ -1007,7 +1008,7 @@ R tmux_7therm_to_3bin_0/buffer_0/out 4833
 = tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/buffer_0/inv_1/vout
 = tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/buffer_0/inv_1/XMn/S
 = tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/S
-C d00 4.4
+C d00 4.6
 R d0 10370
 = d0 comp_p_1/vout
 = d0 comp_p_1/XMp_out/a_n158_n800#
@@ -1107,8 +1108,8 @@ R tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G 3877
 = tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_1/m1_580_n464#
 = tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_1/m1_896_696#
 = tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_1/m1_324_n364#
-C vin0 21.5
-R vin 48321
+C vin0 20.8
+R vin 48325
 = vin comp_p_1/vinp
 = vin comp_p_0/vinp
 = vin comp_p_3/vinp
@@ -1270,8 +1271,8 @@ R comp_p_1/latch_left 37855
 = comp_p_1/latch_left comp_p_1/XMn_diode_left1/a_n100_n488#
 = comp_p_1/latch_left comp_p_1/XMn_diode_left1/a_100_n400#
 = comp_p_1/latch_left comp_p_1/XMn_out_left/a_n100_n588#
-C comp_p_1/vinn0 8.5
-R comp_p_1/vinn 6778
+C comp_p_1/vinn0 8.6
+R comp_p_1/vinn 6777
 = comp_p_1/vinn res_ladder_vref_0/ref0
 = comp_p_1/vinn m1_n1358_n1008#
 = comp_p_1/vinn res_ladder_vref_0/XR8/R1
@@ -1292,7 +1293,7 @@ R comp_p_2/vinn 6648
 = comp_p_2/vinn res_ladder_vref_0/XR6/R1
 = comp_p_2/vinn res_ladder_vref_0/XR7/R1
 R res_ladder_vref_0/XR7/a_n573_n557# 2057
-C comp_p_3/vinn0 7.5
+C comp_p_3/vinn0 7.6
 R comp_p_3/vinn 6650
 = comp_p_3/vinn res_ladder_vref_0/ref3
 = comp_p_3/vinn m1_n2904_n5124#
@@ -1322,7 +1323,7 @@ R comp_p_6/vinn 6779
 = comp_p_6/vinn res_ladder_vref_0/XR3/R1
 R res_ladder_vref_0/XR3/a_n573_n557# 2057
 R res_ladder_vref_0/XR10/a_n573_n557# 2057
-C vref0 4.6
+C vref0 4.8
 R vref 233
 = vref res_ladder_vref_0/vref
 = vref res_ladder_vref_0/XR1/R2

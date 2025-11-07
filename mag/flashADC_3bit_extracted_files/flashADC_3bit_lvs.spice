@@ -107,7 +107,7 @@ Xinv_0 in vdd inv_1/vin vss inv
 Xinv_1 inv_1/vin vdd out vss inv
 .ends
 
-.subckt tmux_7therm_to_3bin d0 d1 d2 d3 d4 d5 d6 q0 q1 q2 vdd vss
+.subckt tmux_7therm_to_3bin d0 d1 d2 d3 d4 d5 d6 q0 q1 q2 buffer_6/out vdd vss
 Xtmux_2to1_1 R1/R1 buffer_8/in vdd buffer_5/out buffer_1/out vss tmux_2to1
 Xtmux_2to1_2 R1/R1 tmux_2to1_3/B vdd buffer_6/out buffer_2/out vss tmux_2to1
 Xtmux_2to1_3 buffer_8/in buffer_7/in vdd tmux_2to1_3/B tmux_2to1_3/A vss tmux_2to1
@@ -136,6 +136,7 @@ Xcomp_p_3 vin comp_p_3/vinn comp_p_6/vbias_p d3 vdd vss comp_p
 Xcomp_p_4 vin comp_p_4/vinn comp_p_6/vbias_p d4 vdd vss comp_p
 Xcomp_p_5 vin comp_p_5/vinn comp_p_6/vbias_p d5 vdd vss comp_p
 Xcomp_p_6 vin comp_p_6/vinn comp_p_6/vbias_p d6 vdd vss comp_p
-Xtmux_7therm_to_3bin_0 d0 d1 d2 d3 d4 d5 d6 dout0 dout1 dout2 vdd vss tmux_7therm_to_3bin
+Xtmux_7therm_to_3bin_0 d0 d1 d2 d3 d4 d5 d6 dout0 dout1 dout2 tmux_7therm_to_3bin_0/buffer_6/out
++ vdd vss tmux_7therm_to_3bin
 .ends
 

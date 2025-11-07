@@ -1,3 +1,4 @@
+m3_n3070_n10912# -3069 -10911 m3
 tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G 13263 3539 pc
 tmux_7therm_to_3bin_0/tmux_2to1_3/A 13870 1383 m1
 tmux_7therm_to_3bin_0/buffer_9/inv_1/vin 14988 -100 m1
@@ -14,7 +15,7 @@ tmux_7therm_to_3bin_0/buffer_5/inv_1/vin 12038 -4177 m1
 tmux_7therm_to_3bin_0/buffer_5/out 12318 -4177 m1
 vdd 5444 3826 m3
 vss -43 188 m3
-d5 10778 -4263 m3
+d5 10778 -4251 m3
 tmux_7therm_to_3bin_0/buffer_4/inv_1/vin 12038 -3016 m1
 tmux_7therm_to_3bin_0/buffer_4/out 12318 -3016 m1
 d4 10902 -2909 m3
